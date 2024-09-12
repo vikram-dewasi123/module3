@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.hero-section {
+    position: relative;
+    height: 90vh;
+    background: url('sky.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(6, 6, 6);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
+
+.content h1 {
+    
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-buttons .btn-primary,
+.cta-buttons .btn-secondary {
+    background-color: #0d0d0d;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons .btn-primary:hover,
+.cta-buttons .btn-secondary:hover {
+    background-color: #c0392b;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(the-universe.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 200px;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+}
+svg{
+    margin-top: 89px;
+}
